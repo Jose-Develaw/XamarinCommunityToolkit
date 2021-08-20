@@ -10,6 +10,10 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Behaviors
 		protected override IEnumerable<SectionModel> CreateItems() => new[]
 		{
 			new SectionModel(
+				typeof(PickerBoundToEnumBehaviorPage),
+				nameof(PickerBoundToEnumBehavior),
+				"Binds Picker to Enum instance, so the ItemSource is created from the Enum values and the Enum instance is updated when the Picker selection changes"),
+			new SectionModel(
 				typeof(EmailValidationBehaviorPage),
 				nameof(EmailValidationBehavior),
 				"Changes an Entry's text color when an invalid e-mail address is provided"),

@@ -21,6 +21,9 @@
   </ItemGroup>
   
   <ItemGroup>
+    <Compile Update="Pages\Behaviors\PickerBoundToEnumBehaviorPage.xaml.cs">
+      <DependentUpon>PickerBoundToEnumBehaviorPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Resx\AppResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

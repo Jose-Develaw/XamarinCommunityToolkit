@@ -22,6 +22,9 @@ namespace Xamarin.CommunityToolkit.Behaviors
 		   declaringType: typeof(PickerBoundToEnumBehavior),
 		   defaultBindingMode: BindingMode.TwoWay);
 
+		/// <summary>
+		/// Enum Instance from which this Picker's ItemSource will be generated. The Picker and the Enum Instance will be bound
+		/// </summary>
 		public Enum EnumSource
 		{
 			get => (Enum)GetValue(EnumSourceProperty);
